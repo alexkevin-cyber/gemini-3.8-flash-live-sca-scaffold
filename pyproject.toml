@@ -1,0 +1,17 @@
+[project]
+name = "gemini-live-scaffold"
+version = "0.1.0"
+description = "Reusable full-screen web scaffold for Gemini 3.8 Live real-time voice & dynamic canvas applications"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.115.0",
+    "uvicorn[standard]>=0.34.0",
+    "websockets>=14.0",
+    "google-genai>=1.20.0",
+    "pydantic-settings>=2.7.0",
+    "python-dotenv>=1.0.1",
+]
+
+[tool.uv]
+package = false
